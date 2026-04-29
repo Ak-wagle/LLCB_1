@@ -1,0 +1,19 @@
+/*
+ * encoders.h
+ *
+ *  Created on: 29-Apr-2026
+ *      Author: Aniruddha Wagle K
+ */
+
+/*
+ * While enabling the Encoder mode in the cubemx set the timer mode to TIM_ENCODERMODE_TI12 and also a little bit of filter
+ */
+
+#ifndef INC_ENCODERS_H_
+#define INC_ENCODERS_H_
+
+int16_t getLeftEncoderCount();
+int16_t getRightEncoderCount();
+void resetEncoders();
+
+#endif /* INC_ENCODERS_H_ */
